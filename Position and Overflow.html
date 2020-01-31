@@ -1,0 +1,47 @@
+<style media="screen">
+    .container{
+        width: 50%;
+        height: 200px;
+        overflow: auto;
+        margin-left:0 auto;
+    }
+    .static {position:static; border:2px solid green;}
+    .relative{
+        position: relative;
+        border: 2px solid red;
+        left: 20px;
+        bottom:0 ;
+    }
+    .absolute{
+        position: absolute;border:2px solid blue;left: 20px;bottom: 40px;
+    }
+    .fixed{
+        position: fixed;border: 2px solid black;bottom: 0;right: 0;
+    }
+    .sticky{
+        position: sticky;
+        border: 2px solid yellow;
+        top:0;
+        left:20px;
+        background :darkblue;
+        color: white;
+    }
+</style>
+<div class="container">
+    <p class="sticky">
+        Ini Adalah contoh dari posisi sticky
+    </p>
+    <p class="relative">    
+        <b>INI ADALHA CONTOH DARI RELATIVE YANG KITA GUNAKAN</b>
+        HEHEHEHEEHHEH H EHE HEHE HEHEH EH EH EHE H EHEHEH EHEHEHEH EH
+        HEHEH EHE HR HEHHE  HEHHE HE HHE HHE HEHEHEHE HE HE HH EHE HEH
+    </p>
+    <P class="absolute">
+        <b>INI ADALAH CONTOH DARI ABSOLUTE YANG KITA GUNAKAN</b>
+        HEHEHE HEH EHEH EEHE H EH EH EHEHH HEH EHEH HE HH HEHH HE]
+        EHE HEH EHEHEHE H EHEHEHE2H EHE H EEHEHE HEH EHDH EHEJ EHHEHE H
+    </P>
+    <P Class="fixed">
+        INI ADALAH CONTOH DARI FIXED YANG KITA GUNAKAN
+    </P>
+</div>
